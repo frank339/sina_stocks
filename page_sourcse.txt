@@ -1,0 +1,32 @@
+显示多少页
+<div class="page_num" id="pageNum">
+                每页显示 <a href="javascript:void(0)" class="">20</a> <a href="javascript:void(0)" class="">40</a> <a href="javascript:void(0);" class="on">60</a>条
+            </div>
+
+
+
+
+涨跌幅
+<th class="sort_down"><a href="javascript:void(0);" suda-uatrack="key=usstock_sector&amp;value=chg">涨跌幅</a></th>
+
+
+
+
+
+<div class="pages" id="pages"><span class="pagedisabled">上一页</span><span class="pagecurr pagedisabled">1</span><a class="" href="javascript:void(0);">2</a><a class="" href="javascript:void(0);">3</a>...<a class="" href="javascript:void(0);">130</a><a class="" href="javascript:void(0);">下一页</a></div>
+
+
+
+http://stock.finance.sina.com.cn/usstock/api/jsonp.php/IO.XSRV2.CallbackList['QGNtUNkM_FleaeT1']/US_CategoryService.getList?page=2&num=20&sort=&asc=0&market=&id=
+http://stock.finance.sina.com.cn/usstock/api/jsonp.php/IO.XSRV2.CallbackList['ExpuY5dfoe6vblu0']/US_CategoryService.getList?page=3&num=20&sort=&asc=0&market=&id=
+
+http://stock.finance.sina.com.cn/usstock/api/jsonp.php/IO.XSRV2.CallbackList['fa8Vo3U4TzVRdsLs']/US_CategoryService.getList?page=1&num=20&sort=&asc=0&market=&id=
+http://stock.finance.sina.com.cn/usstock/api/jsonp.php/IO.XSRV2.CallbackList['p1tyUwCR$iBlNO8Q']/US_CategoryService.getList?page=1&num=60&sort=chg&asc=0&market=&id=
+
+{name:"BP Prudhoe Bay Royalty Trust",cname:"BPT信托",category:"油气",symbol:"BPT",price:"23.60",diff:"1.35",chg:"6.07",preclose:"22.25",open:"23.10",high:"24.25",low:"22.70",amplitude:"6.97%",volume:"777316",mktcap:"505040008",pe:"11.56862785",market:"NYSE",category_id:"76"}
+{name:"China BAK Battery Inc.",cname:"比克电池",category:"",symbol:"CBAK",price:"1.75",diff:"0.10",chg:"6.06",preclose:"1.65",open:"1.65",high:"1.95",low:"1.60",amplitude:"21.21%",volume:"302823",mktcap:"34300000",pe:"-2.53623189",market:"NASDAQ",category_id:"766"}
+
+http://stock.finance.sina.com.cn/usstock/api/jsonp.php/IO.XSRV2.CallbackList['T9tlAIZVvCtjXU0X']/US_CategoryService.getList?page=1&num=60&sort=diff&asc=0&market=&id=
+T9tlAIZVvCtjXU0X 16个随机字符。。跟json比较可以看出有没有从服务器返回
+IO.XSRV2.CallbackList['T9tlAIZVvCtjXU0X'](({count:"7777",data:[{name:"Seaboard Corp",cname:"Seaboard Corp",ca。。。。。。。。
+

@@ -1,0 +1,6 @@
+# ignore all files in the data/ directory
+data/
+
+# ignore all files in the .ipynb_checkpoints/ directory
+.ipynb_checkpoints/
+
